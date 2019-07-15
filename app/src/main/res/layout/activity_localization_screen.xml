@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LocalizationScreen">
+
+    <TextView
+        android:id="@+id/textViewNotNow"
+        android:layout_width="94dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="159dp"
+        android:text="@string/no"
+        android:textColor="#2E86C1"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLocation" />
+
+    <Button
+        android:id="@+id/buttonYes"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="82dp"
+        android:background="@color/colorButton"
+        android:fontFamily="@font/amiko_bold"
+        android:text="@string/btnSi"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNotNow" />
+
+    <ImageView
+        android:id="@+id/imageViewLocalization"
+        android:layout_width="315dp"
+        android:layout_height="315dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="48dp"
+        android:src="@drawable/localizacionlogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewActivate"
+        android:layout_width="292dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="60dp"
+        android:fontFamily="@font/amiko_bold"
+        android:text="@string/activar"
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewLocalization" />
+
+    <TextView
+        android:id="@+id/textViewLocation"
+        android:layout_width="290dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:text="@string/ubicacion"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewActivate" />
+</android.support.constraint.ConstraintLayout>

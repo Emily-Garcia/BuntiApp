@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Login</string>
+    <string name="welcome">Te damos la bienvenida a Bunt i App!</string>
+    <string name="sesion">Regístrate o Inicia sesión con tu email</string>
+    <string name="ingemail">Ingresar email</string>
+    <string name="ingcontraseña">Ingresar contraseña</string>
+    <string name="bttncont">Continuar</string>
+    <string name="link">Registrarse</string>
+    <string name="app">l</string>
+    <string name="nombre">Nombre</string>
+    <string name="email">Email</string>
+    <string name="telefono">Teléfono</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="btnacep">Aceptas nuestra política de privacidad y nuestros términos de uso</string>
+    <string name="btnbuscar">Buscar Taxi</string>
+    <string name="btnllamar">Llamar a la base</string>
+    <string name="confirmar">Confirmar Solicitud</string>
+    <string name="activar">¿Quieres activar tu localización?</string>
+    <string name="ubicacion">Necesitamos saber tu localización para poder ubicarte</string>
+    <string name="no">Ahora no</string>
+    <string name="btnSi">Sí</string>
+    <string name="pagar">¿Cómo quieres pagar?</string>
+    <string name="elige">Elige tu forma de pago favorita</string>
+    <string name="btnefectivo">Efectivo</string>
+    <string name="btntarjeta">Tarjeta bancaria</string>
+    <string name="btnpaypal">Paypal</string>
+    <string name="pago">Pago Satisfactorio</string>
+    <string name="taxi">¡Taxista en camino!</string>
+    <string name="paciente">Le pedimos ser paciente, por su atención, gracias</string>
+    <string name="tiempo">Tiempo de llegada: 5 min</string>
+    <string name="user">Usuario encontrado</string>
+    <string name="destino">Llevar a su destino</string>
+
+</resources>

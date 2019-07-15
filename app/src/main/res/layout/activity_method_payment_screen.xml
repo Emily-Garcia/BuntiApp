@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MethodPaymentScreen">
+
+    <Button
+        android:id="@+id/buttonCash"
+        android:layout_width="229dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="36dp"
+        android:background="@color/colorButton"
+        android:fontFamily="@font/amiko_bold"
+        android:text="@string/btnefectivo"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewCash"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewPayment" />
+
+    <Button
+        android:id="@+id/buttonCreditCard"
+        android:layout_width="230dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="36dp"
+        android:background="@color/colorButton"
+        android:fontFamily="@font/amiko_bold"
+        android:text="@string/btntarjeta"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewCreditCard"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCash" />
+
+    <Button
+        android:id="@+id/buttonPayPal"
+        android:layout_width="231dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="36dp"
+        android:background="@color/colorButton"
+        android:fontFamily="@font/amiko_bold"
+        android:text="@string/btnpaypal"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewPaypal"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCreditCard" />
+
+    <TextView
+        android:id="@+id/textViewPacient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="49dp"
+        android:fontFamily="@font/amiko_bold"
+        android:text="@string/pagar"
+        android:textColor="@color/colorText"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="79dp"
+        android:text="@string/elige"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPacient" />
+
+    <ImageView
+        android:id="@+id/imageViewCash"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="19dp"
+        android:src="@drawable/iconefectivo"
+        app:layout_constraintEnd_toStartOf="@+id/buttonCash"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewPayment" />
+
+    <ImageView
+        android:id="@+id/imageViewCreditCard"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="18dp"
+        android:src="@drawable/icontargeta"
+        app:layout_constraintEnd_toStartOf="@+id/buttonCreditCard"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCash" />
+
+    <ImageView
+        android:id="@+id/imageViewPaypal"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="17dp"
+        android:src="@drawable/iconpaypal"
+        app:layout_constraintEnd_toStartOf="@+id/buttonPayPal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCreditCard" />
+
+    <ImageView
+        android:id="@+id/imageViewPayment"
+        android:layout_width="265dp"
+        android:layout_height="253dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="73dp"
+        android:src="@drawable/iconpayment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+</android.support.constraint.ConstraintLayout>

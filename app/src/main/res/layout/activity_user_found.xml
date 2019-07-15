@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorBackground"
+    android:layout_height="match_parent"
+    tools:context=".UserFound">
+
+    <Button
+        android:id="@+id/buttonUserFound"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="82dp"
+        android:background="@color/colorButton"
+        android:fontFamily="@font/amiko_bold"
+        android:text="@string/user"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewUserFound" />
+
+    <Button
+        android:id="@+id/buttonDestiny"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="82dp"
+        android:background="@color/colorButton"
+        android:fontFamily="@font/amiko_bold"
+        android:text="@string/destino"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonUserFound" />
+
+    <ImageView
+        android:id="@+id/imageViewUserFound"
+        android:layout_width="320dp"
+        android:layout_height="253dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="46dp"
+        android:src="@drawable/iconuserfound"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
